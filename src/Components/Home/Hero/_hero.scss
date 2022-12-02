@@ -1,0 +1,63 @@
+.heroImage {
+  position: relative;
+
+  img {
+    width: 100%;
+    max-height: calc(80vh);
+  }
+
+  .heroContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    .heroContentText {
+      width: 100%;
+      margin-top: -25%;
+      margin-left: -50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+      h2 {
+        @include titlesh2(#fff)
+      }
+
+      a {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        margin-top: 1em;
+        border-radius: 5px;
+
+        button {
+          @include buton1;
+          position: relative;
+          z-index: 1;
+          transition: .3s;
+
+          &:hover {
+            color: #111;
+          }
+        }
+
+        &::after {
+          content: "";
+          background: #fff;
+          width: 0;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          right: 0;
+          transition: .3s;
+          z-index: 0;
+        }
+        &:hover::after {
+          left: 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

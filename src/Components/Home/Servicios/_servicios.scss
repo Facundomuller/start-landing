@@ -1,0 +1,26 @@
+
+.servicios {
+  
+  .serviciosTitle {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 2em;
+    text-align: center;
+  }
+  .serviciosCards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+
+    .cardContainer {
+      margin: 0 2.5em;
+
+      p {
+        font-size: 1.2em;
+        text-align: center;
+        letter-spacing: 1.5px;
+      }
+    }
+  }
+}

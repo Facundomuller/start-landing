@@ -1,0 +1,26 @@
+.headerContainer {
+  background-color: #2231C3;
+  padding: 15px 30px;
+}
+.headerContainer .headerRow {
+  display: flex;
+}
+.headerContainer .headerRow img {
+  max-width: 80px;
+}
+.headerContainer .headerRow .navbar {
+  margin-left: auto;
+}
+.headerContainer .headerRow .navbar ul {
+  display: flex;
+}
+.headerContainer .headerRow .navbar ul li {
+  margin: 0 15px;
+}
+.headerContainer .headerRow .navbar ul li a {
+  display: block;
+}
+.headerContainer .headerRow .navbar ul li a p {
+  font-size: 15px;
+  color: #fff;
+}/*# sourceMappingURL=Header.css.map */

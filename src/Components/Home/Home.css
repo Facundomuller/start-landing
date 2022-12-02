@@ -1,0 +1,84 @@
+.heroImage {
+  position: relative;
+}
+.heroImage img {
+  width: 100%;
+  max-height: 80vh;
+}
+.heroImage .heroContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.heroImage .heroContent .heroContentText {
+  width: 100%;
+  margin-top: -25%;
+  margin-left: -50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heroImage .heroContent .heroContentText h2 {
+  color: #fff;
+  font-size: 2em;
+  letter-spacing: 1.5px;
+}
+.heroImage .heroContent .heroContentText a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin-top: 1em;
+  border-radius: 5px;
+}
+.heroImage .heroContent .heroContentText a button {
+  display: block;
+  padding: 0.7em 1.5em;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.5em;
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
+}
+.heroImage .heroContent .heroContentText a button:hover {
+  color: #111;
+}
+.heroImage .heroContent .heroContentText a::after {
+  content: "";
+  background: #fff;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.3s;
+  z-index: 0;
+}
+.heroImage .heroContent .heroContentText a:hover::after {
+  left: 0;
+  width: 100%;
+}
+
+.servicios .serviciosTitle {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 2em;
+  text-align: center;
+}
+.servicios .serviciosCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.servicios .serviciosCards .cardContainer {
+  margin: 0 2.5em;
+}
+.servicios .serviciosCards .cardContainer p {
+  font-size: 1.2em;
+  text-align: center;
+  letter-spacing: 1.5px;
+}/*# sourceMappingURL=Home.css.map */

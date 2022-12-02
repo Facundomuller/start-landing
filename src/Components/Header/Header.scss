@@ -1,0 +1,35 @@
+@import "../variables.scss";
+
+.headerContainer {
+  background-color: $first-color;
+  padding: 15px 30px;
+ 
+  .headerRow {
+    display: flex;
+
+    img {
+      max-width: 80px;
+    }
+
+    .navbar {
+      margin-left: auto;
+
+      ul {
+        display: flex;
+
+        li {
+          margin: 0 15px;
+
+          a {
+            display: block;
+
+            p {
+              font-size: 15px;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
