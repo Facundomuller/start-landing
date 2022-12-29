@@ -23,6 +23,7 @@
   color: #fff;
   font-size: 2em;
   letter-spacing: 1.5px;
+  margin-bottom: 2em;
 }
 .heroImage .heroContent .heroContentText a {
   display: block;
@@ -62,6 +63,23 @@
   width: 100%;
 }
 
+@media (max-width: 998px) {
+  .heroImage .heroContent .heroContentText h2 {
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .heroImage .heroContent .heroContentText a {
+    margin-top: 0.5em;
+  }
+  .heroImage .heroContent .heroContentText a button {
+    font-size: 1.4em;
+    background: #ffffff;
+    color: #2231C3;
+    font-weight: 500;
+    border: 2px solid #2231C3;
+  }
+}
 .servicios .serviciosTitle {
   margin-top: 2em;
   margin-bottom: 2em;
@@ -81,4 +99,13 @@
   font-size: 1.2em;
   text-align: center;
   letter-spacing: 1.5px;
+}
+
+@media (max-width: 998px) {
+  .servicios .serviciosCards {
+    flex-wrap: wrap;
+  }
+  .servicios .serviciosCards .cardContainer {
+    margin-bottom: 1.5em;
+  }
 }/*# sourceMappingURL=Home.css.map */

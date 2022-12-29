@@ -1,11 +1,10 @@
-import { menuLinks } from "./menuLinks";
 
-const NavLinks = () => {
+const Desktop = ({data}) => {
 
   return (
     <ul>
       {
-        menuLinks.map((item) => {
+        data.map((item) => {
 
           if (!item.visible) {
             
@@ -24,8 +23,8 @@ const NavLinks = () => {
         })
       }
     </ul>
-  )
-  
+  );
+
 }
 
-export { NavLinks }
+export default Desktop;

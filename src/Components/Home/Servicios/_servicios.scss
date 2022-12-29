@@ -24,3 +24,19 @@
     }
   }
 }
+
+// Mobile
+@media (max-width: 998px) {
+
+  .servicios {
+
+    .serviciosCards {
+      flex-wrap: wrap;
+
+      .cardContainer {
+        margin-bottom: 1.5em
+      }
+    }
+  }
+
+}

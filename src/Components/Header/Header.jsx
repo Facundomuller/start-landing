@@ -1,4 +1,4 @@
-import { NavLinks } from "./NavLinks/NavLinks";
+import { Menu } from "./Menu/Menu";
 import devClimbersLogo from "/img/devclimbers.png"
 
 import "./Header.css";
@@ -12,10 +12,11 @@ const Header = () => {
     <header className="headerContainer">
       <div className="headerRow container">
         <div className="logo">
-          <img src={devClimbersLogo} alt="" />
+          NomadiCode
+          {/* <img src={devClimbersLogo} alt="" /> */}
         </div>
         <div className="navbar">
-          <NavLinks />
+          <Menu />
         </div>
       </div>
     </header>

@@ -21,7 +21,8 @@
       align-items: center;
     
       h2 {
-        @include titlesh2(#fff)
+        @include titlesh2(#fff);
+        margin-bottom: 2em;
       }
 
       a {
@@ -60,4 +61,36 @@
       }
     }
   }
+}
+
+// Mobile
+@media (max-width: 998px) {
+
+  .heroImage {
+
+    .heroContent {
+
+      .heroContentText {
+
+        h2 {
+          font-size: 1.6em;
+          text-align: center;
+          margin-bottom: 1em;
+        }
+
+        a {
+          margin-top: 0.5em;
+
+          button {
+            font-size: 1.4em;
+            background: #ffffff;
+            color: #2231C3;
+            font-weight: 500;
+            border: 2px solid #2231C3;
+          }
+        }
+      }
+    }
+  }
+
 }
